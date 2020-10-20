@@ -1,0 +1,560 @@
+@import 'inicio';
+@import 'colors';
+@import 'font';
+@import 'images';
+@import 'mixin';
+
+*{
+   margin: $reset-margin;
+   padding: $reset-padding;  
+   box-sizing: border-box;  
+ }
+
+.color-navbar{
+    background-color: $color-secundary;
+    width: 100%;
+}
+
+.titulo-neon {
+
+    text-align: $aligncenter;
+    color: $color-shadow;
+    margin-top: -1%;
+    text-shadow:
+    $color-shadow-primary;
+    width: 100%;
+    height: 250px;
+
+    font-family: $font-text;
+    letter-spacing: 15px;
+    position: $Pos-absolute;
+    top: 73px;
+}
+
+.titulo-continuacion {
+
+    text-align: $aligncenter;
+    color: $color-var;
+    font-family: $font-secundary;
+    font-size: 60px;
+    @include transform;
+    position: $Pos-absolute;
+    top: 181px;
+    left: 870px;
+}
+
+.short-tt {
+    font-size:130px;
+}
+
+.long-tt {
+    font-size: 90px;
+}
+
+.fondo-titulo{
+    width:100%;
+    height:300px;
+}
+
+.wp-follow{
+    width: 55px;
+    height: 55px;
+    position: $fix;
+    left: 1310px;
+    top: 600px;
+ }
+ 
+ .text-first, 
+ .text-end {   
+    font-family:$font-text;
+    padding: 60px;
+    text-align: $aligncenter;
+    letter-spacing: 10px;
+    font-size: 30px;
+ }
+
+ .img-inicio {
+    border-radius: $Radius-circulo;
+    width:350px;
+    height: 350px;
+   
+}
+
+.img-inicio:hover{
+    filter:$effect-filter;
+}
+
+.fondo-text {
+    width:400px;
+    height: 400px;
+}
+
+
+.Imagen-redsocial {
+    width: 50px;
+    height:50px;
+}
+
+.align-bannerfinal{
+    margin: 25px auto;    
+}
+
+.line-neon-banner-small{
+    width: 500px;
+    height: 5px;
+    background-color: $bg-banner;
+    border-color:$color-line-c;
+    border-width: 1px;
+    border-style: solid;
+    /* border: 10px;  */
+    box-shadow:$shadow-line-color;
+    box-sizing: content-box;
+    border: 5px solid $color-line-c;
+    border-radius: $border-line-radius;
+    margin: 12px auto ;
+}
+
+// .line-neon-banner{
+//     height: 7px;
+//     background-color: $bg-banner; 
+//     border-color: $border-line-final;
+//     border-width: 1px;
+//     border-style: solid;
+//     box-shadow: $line-banner-final;
+//     border-radius: $border-line-radius;
+//     box-sizing: content-box;    
+//     border: 2px solid   $border-line-final;
+// }
+
+
+.line-neon-banner{
+     height: 7px;
+     background-color: $bg-banner; 
+     @extend %border-completo;
+     box-sizing: content-box;    
+    
+ }
+
+.text-bannerFinal {
+    font-family: $font-final;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: $aligncenter;
+}
+
+.logofinal{
+    border-radius: $Radius-circulo;
+    width:  150px;    
+    height:  150px;
+    } 
+
+.finalFoot{
+    @include flexbox-row-center;   
+    }
+
+
+.font-final{
+        font-family: $font-secundary;
+        font-size: 19px;
+    }
+
+    
+
+    /*De aca en adelante, todo css que queda por pasar a scss. */
+
+    /*Fin Inicio*/
+/*Productos*/
+
+.color-table {
+    background-color: $color-secundary;
+}
+
+/*Fin productos*/
+/*Realiza tu pedido*/
+
+.segundo-titulo-page{
+    width: 100%;
+    background-color: $color-secundary;
+    font-size: 40px;
+    font-family: $font-secundary;
+    margin-top:10px;
+    text-align: $aligncenter;
+
+}
+
+.formEstilo{
+    font-family: $font-text;
+    font-weight: bold;
+    font-size: 20px; 
+    margin: 10px auto;   
+
+}
+
+.form-pedido, .form-contacto{
+
+    @include flexbox-space-around-row;
+}
+/*Fin pedidos*/
+
+/*Inicio tratamientos*/
+
+.text-style-tratamientos {
+    font-family: $font-text;
+    font-size: 28px;   
+    width:500px;
+    height: 600px;
+    text-align: start;
+    
+}
+/*Depilacion*/
+.tratamientos-flex{
+   @include flexbox-space-around-row;
+    margin: 30px auto;    
+}
+
+.img-depilacion1{
+
+    width: 380px;
+    height: 500px;
+} 
+
+/*Criolipolisis*/
+.img-crio1{
+    width:400px;
+    height: 560px;
+}
+.img-crio2{
+    height: 560px;
+    width: 400px;
+}
+
+
+/*Alisados*/
+.img-alisado1{
+    width:400px;
+    height: 300px;
+    align-items: $aligncenter;
+    margin: 10px auto;
+}
+
+
+
+.align-text-alisados, .img-alisado3, .img-alisado2{
+    margin: 50px auto;
+} 
+
+
+/*Turno*/
+.form-box{
+    margin: 50px auto;
+    @include flexbox-space-evenly-row;
+}
+
+.btn-Formato-special{
+    background-color: $color-line-c;
+    margin: 30px auto;
+    text-align: $aligncenter;
+    color: $btn-Color;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+
+.btn-Formato-special:hover {
+    background-color: $color-line-c;
+    box-shadow: $shadow-line-color;
+}
+/*Pregutas frecuentes*/
+
+.text-preguntasFrecuentes{
+    font-family: $font-text;
+    font-size: 28px;  
+}
+
+/*Fin tratamientos*/
+/*Nosotras*/
+
+.text-nosotras, .text-nosotras-antes-despues{
+    letter-spacing: 2px;
+    text-align: left;
+    /* line-break: anywhere; */
+}
+.text-nosotras-antes-despues{
+    text-align: $aligncenter;
+}
+
+.line-neon, .line-neon-last{  
+    height: 5px;
+    background-color:$bg-banner;
+    border-color: $color-line-c;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: $shadow-line-color;
+    border-radius: $border-line-radius;
+}
+
+
+.image-nosotras{ 
+    margin: auto 2px; 
+    width: 300px;
+    height: 400px;       
+}
+
+.img-flip:hover{
+    transform: scale(1.2);
+}
+
+.image-nosotras2{
+    margin: auto 2px;
+    height: 300px;
+    width: 300px;
+}
+
+.line-neon-last{
+    margin: 50px auto;
+}
+
+/*Fin nosotras*/
+/*Contactanos*/
+.form-contacto{
+    margin: 50px auto;
+}
+
+.btn-margin{
+    margin: 5px auto;
+}
+
+.form-contacto-cajas{
+    @include flexbox-center-column;
+    font-weight: bold;
+}
+
+.text-area{
+    font-weight: bold;
+    margin: 20px auto;    
+}
+/*Fin contactanos */
+
+/*Mobile*/
+@media only screen and (max-width: 400px){
+ 
+    .titulo-neon{
+        text-align: $aligncenter;
+        align-items: $aligncenter;
+        font-size:36px;    
+    }
+
+    .titulo-continuacion{
+        position: $Pos-absolute;
+        top: 138px;
+        left: 200px;
+        font-size: 40px;
+    }
+
+    .segundo-titulo-page {
+        font-size: 31px;
+    }
+    
+    .short-tt {
+        font-size: 62px;
+    }
+      
+    .long-tt {
+        font-size: 28px;
+        
+    }
+
+    .wp-follow{
+        display:none;
+    }
+    
+    .text-first, .text-end, .text-style-tratamientos{
+        font-size: 22px;
+        text-align: $aligncenter;
+        padding: 10px;        
+    }
+
+    body, .img-alisado1, .img-bolsa, .img-depilacion1, .img-crio1, .img-crio2{
+        width: 100%;       
+    }
+
+    
+    .short-tt{
+        width: 100%;
+    }
+
+    
+    .fondo-text, .img-inicio{
+        width: 120px;
+        height: 120px;
+    }
+
+    .text-bannerFinal{       
+        font-size: 15px;
+    }
+
+    .align-bannerfinal{
+        margin: 15px auto;        
+    }
+
+    .line-neon-banner-small{
+        width: 150px;
+         height: 4px;   
+    }
+
+    .line-neon-banner{
+        height: 5px;
+      
+    }
+
+    .logofinal{
+        width: 40%;        
+    }
+
+    .bannerFinal{
+        height: 457px;
+    }
+
+   
+    .font-final{
+        font-size: 10px;
+    }
+
+    .img-depilacion2{
+        display:none;
+    }
+
+    .align-text-alisados{
+        margin: 1px auto;
+    }
+
+    .img-alisado1{
+        width: 100%;
+    }
+
+    
+    .text-preguntasFrecuentes{
+        font-size: 20px;
+    }
+
+    .image-nosotras {
+        margin: auto 80px;
+        width: 200px;
+        height: 200px;
+      }
+      
+      
+      .image-nosotras2 {
+        margin: auto 80px;
+        height: 200px;
+        width: 200px;
+      }
+    
+
+}
+
+/*tablet*/
+@media only screen and (min-width: 401px) and (max-width:960px){
+
+    .titulo-neon{
+        text-align: $aligncenter;
+        position: none;
+        font-size: 36px;
+    }
+
+    .titulo-continuacion{
+        position: $Pos-absolute;
+        top: 138px;
+        left: 200px;
+        font-size: 40px;
+    }
+
+    .short-tt {
+        font-size: 65px;
+    }
+      
+    .long-tt {
+        font-size:33px;
+    }
+    
+    .segundo-titulo-page {
+        font-size: 35px;
+    }
+
+    .wp-follow{
+        display:none;
+    }  
+ 
+    .text-first, .text-end, .text-style-tratamientos{
+        font-size:22px;
+        text-align: $aligncenter;
+        padding:10px;        
+    }
+
+    body, .img-alisado1, .img-bolsa, .img-depilacion1, .img-crio1, .img-crio2{
+        width: 100%;        
+    }
+
+    
+    .fondo-text, .img-inicio{
+        width: 120px;
+        height: 120px;
+    }
+
+    .text-bannerFinal{
+        font-size: 15px;
+    } 
+
+    .bannerFinal{
+        height: 380px;
+    }   
+
+    .align-bannerfinal{
+        margin: 15px auto;        
+    }
+    
+    .logofinal{
+        width: 40%;        
+    }
+
+    .font-final{
+        font-size: 10px;
+    }
+
+    .img-depilacion2{
+        display:none;
+    }
+
+    
+    .text-preguntasFrecuentes{
+        font-size: 20px;
+    }
+
+    .line-neon-banner-small{
+        width: 150px;
+         height: 4px;   
+    }
+
+    .line-neon-banner{
+        height: 5px;
+      
+    }
+
+    .image-nosotras {
+        margin: auto 80px;
+        width: 200px;
+        height: 200px;
+      }
+      
+      
+      .image-nosotras2 {
+        margin: auto 80px;
+        height: 200px;
+        width: 200px;
+    }
+    
+
+    
+
+}
+/*Fin tablet*/

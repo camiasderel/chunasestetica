@@ -1,0 +1,45 @@
+@mixin transform{
+    -webkit-transform: rotate(-20deg);
+    -ms-transform:  rotate(-20deg);
+    transform:  rotate(-20deg);
+}
+
+
+@mixin flexbox-row-center{
+    display:flex;    
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+@mixin flexbox-space-around-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+
+@mixin flexbox-space-evenly-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@mixin flexbox-center-column{
+    display: flex;
+    justify-content: center;   
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/*Extends*/
+
+ %border-completo{
+
+    border-color: $border-line-final;
+    border-width: 1px;
+    box-shadow: $line-banner-final;
+    border-radius: $border-line-radius;
+    border: 2px $border-line-final;    
+ }
