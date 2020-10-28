@@ -68,6 +68,13 @@
   top: 600px;
 }
 
+.logoInicio {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+}
+
 .text-first,
 .text-end {
   font-family: "Poiret One", cursive;
@@ -351,6 +358,10 @@
     display: none;
   }
 
+  .logoInicio {
+    display: none;
+  }
+
   .text-first, .text-end, .text-style-tratamientos {
     font-size: 22px;
     text-align: center;
@@ -454,7 +465,7 @@
     font-size: 35px;
   }
 
-  .wp-follow {
+  .wp-follow .logoInicio {
     display: none;
   }
 

@@ -31,8 +31,7 @@
     top: 73px;
 }
 
-.titulo-continuacion {
-
+.titulo-continuacion {   
     text-align: $aligncenter;
     color: $color-var;
     font-family: $font-secundary;
@@ -62,6 +61,13 @@
     position: $fix;
     left: 1310px;
     top: 600px;
+ }
+
+ .logoInicio{
+    border-radius: $Radius-circulo;
+    width:  150px;    
+    height:  150px;
+    margin-top: 50px;
  }
  
  .text-first, 
@@ -367,6 +373,10 @@
     .wp-follow{
         display:none;
     }
+
+    .logoInicio{
+       display:none
+    }
     
     .text-first, .text-end, .text-style-tratamientos{
         font-size: 22px;
@@ -468,7 +478,7 @@
         left: 200px;
         font-size: 40px;
     }
-
+    
     .short-tt {
         font-size: 65px;
     }
@@ -481,10 +491,10 @@
         font-size: 35px;
     }
 
-    .wp-follow{
+    .wp-follow .logoInicio{
         display:none;
     }  
- 
+    
     .text-first, .text-end, .text-style-tratamientos{
         font-size:22px;
         text-align: $aligncenter;
