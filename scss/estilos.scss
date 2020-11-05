@@ -93,7 +93,7 @@
 .fondo-text {
     width:400px;
     height: 400px;  
-    margin: auto 10px; 
+    
 }
 
 
@@ -341,6 +341,23 @@
     margin: 20px auto;    
 }
 /*Fin contactanos */
+/*screen very small*/
+@media only screen and (max-width: 285px){
+
+    .short-tt {
+        font-size: 43px !important;
+    }
+    .long-tt{
+        font-size: 16px !important;
+    }
+    .titulo-continuacion{
+        position: $Pos-absolute;
+        top: 138px;
+        left: 200px;
+        font-size: 25px !important;
+    }
+}
+
 
 /*Mobile*/
 @media only screen and (max-width: 400px){
@@ -355,7 +372,7 @@
         position: $Pos-absolute;
         top: 138px;
         left: 200px;
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .segundo-titulo-page {
@@ -363,7 +380,7 @@
     }
     
     .short-tt {
-        font-size: 62px;
+        font-size: 55px;
     }
       
     .long-tt {
@@ -492,7 +509,11 @@
         font-size: 35px;
     }
 
-    .wp-follow .logoInicio{
+    .logoInicio{
+     display: none !important;
+    }
+
+    .wp-follow {
         display:none;
     }  
     
@@ -563,9 +584,18 @@
         height: 200px;
         width: 200px;
     }
-    
-
-    
-
+      
 }
 /*Fin tablet*/
+
+@media only screen and (min-width: 960px) and (max-width:1100px){
+
+    
+    .titulo-continuacion{
+        position: $Pos-absolute;
+        top: 190px;
+        left: 700px;
+        font-size: 60px;
+    }
+
+}

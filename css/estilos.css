@@ -7,16 +7,19 @@
   border-width: 1px;
   box-shadow: 0 0 10px #FF00FF, 0 0 20px #FF00FF, 0 0 40px #FF00FF;
   border-radius: 20px 20px 20px 20px;
-  border: 2px #FF00FF; }
+  border: 2px #FF00FF;
+}
 
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 .color-navbar {
   background-color: #EDD7E7;
-  width: 100%; }
+  width: 100%;
+}
 
 .titulo-neon {
   text-align: center;
@@ -28,7 +31,8 @@
   font-family: "Poiret One", cursive;
   letter-spacing: 15px;
   position: absolute;
-  top: 73px; }
+  top: 73px;
+}
 
 .titulo-continuacion {
   text-align: center;
@@ -40,30 +44,36 @@
   transform: rotate(-20deg);
   position: absolute;
   top: 181px;
-  left: 870px; }
+  left: 870px;
+}
 
 .short-tt {
-  font-size: 130px; }
+  font-size: 130px;
+}
 
 .long-tt {
-  font-size: 90px; }
+  font-size: 90px;
+}
 
 .fondo-titulo {
   width: 100%;
-  height: 300px; }
+  height: 300px;
+}
 
 .wp-follow {
   width: 55px;
   height: 55px;
   position: fixed;
   left: 1310px;
-  top: 600px; }
+  top: 600px;
+}
 
 .logoInicio {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  margin-top: 50px; }
+  margin-top: 50px;
+}
 
 .text-first,
 .text-end {
@@ -71,27 +81,32 @@
   padding: 60px;
   text-align: center;
   letter-spacing: 10px;
-  font-size: 30px; }
+  font-size: 30px;
+}
 
 .img-inicio {
   border-radius: 50%;
   width: 350px;
-  height: 350px; }
+  height: 350px;
+}
 
 .img-inicio:hover {
-  filter: blur(5px); }
+  filter: blur(5px);
+}
 
 .fondo-text {
   width: 400px;
   height: 400px;
-  margin: auto 10px; }
+}
 
 .Imagen-redsocial {
   width: 50px;
-  height: 50px; }
+  height: 50px;
+}
 
 .align-bannerfinal {
-  margin: 25px auto; }
+  margin: 25px auto;
+}
 
 .line-neon-banner-small {
   width: 500px;
@@ -105,38 +120,45 @@
   box-sizing: content-box;
   border: 5px solid #00FFF3;
   border-radius: 20px 20px 20px 20px;
-  margin: 12px auto; }
+  margin: 12px auto;
+}
 
 .line-neon-banner {
   height: 7px;
   background-color: white;
-  box-sizing: content-box; }
+  box-sizing: content-box;
+}
 
 .text-bannerFinal {
   font-family: "Cinzel", serif;
   font-size: 16px;
   font-weight: bold;
-  text-align: center; }
+  text-align: center;
+}
 
 .logofinal {
   border-radius: 50%;
   width: 150px;
-  height: 150px; }
+  height: 150px;
+}
 
 .finalFoot {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .font-final {
   font-family: "Dancing Script", cursive;
-  font-size: 19px; }
+  font-size: 19px;
+}
 
 /*De aca en adelante, todo css que queda por pasar a scss. */
 /*Fin Inicio*/
 /*Productos*/
 .color-table {
-  background-color: #EDD7E7; }
+  background-color: #EDD7E7;
+}
 
 /*Fin productos*/
 /*Realiza tu pedido*/
@@ -146,19 +168,22 @@
   font-size: 40px;
   font-family: "Dancing Script", cursive;
   margin-top: 10px;
-  text-align: center; }
+  text-align: center;
+}
 
 .formEstilo {
   font-family: "Poiret One", cursive;
   font-weight: bold;
   font-size: 20px;
-  margin: 10px auto; }
+  margin: 10px auto;
+}
 
 .form-pedido, .form-contacto {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+}
 
 /*Fin pedidos*/
 /*Inicio tratamientos*/
@@ -167,7 +192,8 @@
   font-size: 28px;
   width: 500px;
   height: 600px;
-  text-align: start; }
+  text-align: start;
+}
 
 /*Depilacion*/
 .tratamientos-flex {
@@ -175,30 +201,36 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 30px auto; }
+  margin: 30px auto;
+}
 
 .img-depilacion1 {
   width: 380px;
-  height: 500px; }
+  height: 500px;
+}
 
 /*Criolipolisis*/
 .img-crio1 {
   width: 400px;
-  height: 560px; }
+  height: 560px;
+}
 
 .img-crio2 {
   height: 560px;
-  width: 400px; }
+  width: 400px;
+}
 
 /*Alisados*/
 .img-alisado1 {
   width: 400px;
   height: 300px;
   align-items: center;
-  margin: 10px auto; }
+  margin: 10px auto;
+}
 
 .align-text-alisados, .img-alisado3, .img-alisado2 {
-  margin: 50px auto; }
+  margin: 50px auto;
+}
 
 /*Turno*/
 .form-box {
@@ -206,7 +238,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+}
 
 .btn-Formato-special {
   background-color: #00FFF3;
@@ -214,26 +247,31 @@
   text-align: center;
   color: black;
   font-weight: bold;
-  transition: 0.2s; }
+  transition: 0.2s;
+}
 
 .btn-Formato-special:hover {
   background-color: #00FFF3;
-  box-shadow: 0 0 10px #00FFF3, 0 0 20px #00FFF3, 0 0 40px #00FFF3; }
+  box-shadow: 0 0 10px #00FFF3, 0 0 20px #00FFF3, 0 0 40px #00FFF3;
+}
 
 /*Pregutas frecuentes*/
 .text-preguntasFrecuentes {
   font-family: "Poiret One", cursive;
-  font-size: 28px; }
+  font-size: 28px;
+}
 
 /*Fin tratamientos*/
 /*Nosotras*/
 .text-nosotras, .text-nosotras-antes-despues {
   letter-spacing: 2px;
   text-align: left;
-  /* line-break: anywhere; */ }
+  /* line-break: anywhere; */
+}
 
 .text-nosotras-antes-despues {
-  text-align: center; }
+  text-align: center;
+}
 
 .line-neon, .line-neon-last {
   height: 5px;
@@ -242,162 +280,288 @@
   border-width: 1px;
   border-style: solid;
   box-shadow: 0 0 10px #00FFF3, 0 0 20px #00FFF3, 0 0 40px #00FFF3;
-  border-radius: 20px 20px 20px 20px; }
+  border-radius: 20px 20px 20px 20px;
+}
 
 .image-nosotras {
   margin: auto 2px;
   width: 300px;
-  height: 400px; }
+  height: 400px;
+}
 
 .img-flip:hover {
-  transform: scale(1.2); }
+  transform: scale(1.2);
+}
 
 .image-nosotras2 {
   margin: auto 2px;
   height: 300px;
-  width: 300px; }
+  width: 300px;
+}
 
 .line-neon-last {
-  margin: 50px auto; }
+  margin: 50px auto;
+}
 
 /*Fin nosotras*/
 /*Contactanos*/
 .form-contacto {
-  margin: 50px auto; }
+  margin: 50px auto;
+}
 
 .btn-margin {
-  margin: 5px auto; }
+  margin: 5px auto;
+}
 
 .form-contacto-cajas {
   display: flex;
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .text-area {
   font-weight: bold;
-  margin: 20px auto; }
+  margin: 20px auto;
+}
 
 /*Fin contactanos */
+/*screen very small*/
+@media only screen and (max-width: 285px) {
+  .short-tt {
+    font-size: 43px !important;
+  }
+
+  .long-tt {
+    font-size: 16px !important;
+  }
+
+  .titulo-continuacion {
+    position: absolute;
+    top: 138px;
+    left: 200px;
+    font-size: 25px !important;
+  }
+}
 /*Mobile*/
 @media only screen and (max-width: 400px) {
   .titulo-neon {
     text-align: center;
     align-items: center;
-    font-size: 36px; }
+    font-size: 36px;
+  }
+
   .titulo-continuacion {
     position: absolute;
     top: 138px;
     left: 200px;
-    font-size: 40px; }
+    font-size: 35px;
+  }
+
   .segundo-titulo-page {
-    font-size: 31px; }
+    font-size: 31px;
+  }
+
   .short-tt {
-    font-size: 62px; }
+    font-size: 55px;
+  }
+
   .long-tt {
-    font-size: 28px; }
+    font-size: 28px;
+  }
+
   .wp-follow {
-    display: none; }
+    display: none;
+  }
+
   .logoInicio {
-    display: none; }
+    display: none;
+  }
+
   .text-first, .text-end, .text-style-tratamientos {
     font-size: 22px;
     text-align: center;
-    padding: 10px; }
+    padding: 10px;
+  }
+
   body, .img-alisado1, .img-bolsa, .img-depilacion1, .img-crio1, .img-crio2 {
-    width: 100%; }
+    width: 100%;
+  }
+
   .short-tt {
-    width: 100%; }
+    width: 100%;
+  }
+
   .fondo-text, .img-inicio {
     width: 120px;
-    height: 120px; }
+    height: 120px;
+  }
+
   .text-bannerFinal {
-    font-size: 15px; }
+    font-size: 15px;
+  }
+
   .align-bannerfinal {
-    margin: 15px auto; }
+    margin: 15px auto;
+  }
+
   .line-neon-banner-small {
     width: 150px;
-    height: 4px; }
+    height: 4px;
+  }
+
   .line-neon-banner {
-    height: 5px; }
+    height: 5px;
+  }
+
   .logofinal {
-    width: 40%; }
+    width: 40%;
+  }
+
   .bannerFinal {
-    height: 457px; }
+    height: 457px;
+  }
+
   .font-final {
-    font-size: 10px; }
+    font-size: 10px;
+  }
+
   .img-depilacion2 {
-    display: none; }
+    display: none;
+  }
+
   .align-text-alisados {
-    margin: 1px auto; }
+    margin: 1px auto;
+  }
+
   .img-alisado1 {
-    width: 100%; }
+    width: 100%;
+  }
+
   .text-preguntasFrecuentes {
-    font-size: 20px; }
+    font-size: 20px;
+  }
+
   .image-nosotras {
     margin: auto 80px;
     width: 200px;
-    height: 200px; }
+    height: 200px;
+  }
+
   .image-nosotras2 {
     margin: auto 80px;
     height: 200px;
-    width: 200px; } }
-
+    width: 200px;
+  }
+}
 /*tablet*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   .titulo-neon {
     text-align: center;
     position: none;
-    font-size: 36px; }
+    font-size: 36px;
+  }
+
   .titulo-continuacion {
     position: absolute;
     top: 138px;
     left: 200px;
-    font-size: 40px; }
+    font-size: 40px;
+  }
+
   .short-tt {
-    font-size: 65px; }
+    font-size: 65px;
+  }
+
   .long-tt {
-    font-size: 33px; }
+    font-size: 33px;
+  }
+
   .segundo-titulo-page {
-    font-size: 35px; }
-  .wp-follow .logoInicio {
-    display: none; }
+    font-size: 35px;
+  }
+
+  .logoInicio {
+    display: none !important;
+  }
+
+  .wp-follow {
+    display: none;
+  }
+
   .text-first, .text-end, .text-style-tratamientos {
     font-size: 22px;
     text-align: center;
-    padding: 10px; }
+    padding: 10px;
+  }
+
   body, .img-alisado1, .img-bolsa, .img-depilacion1, .img-crio1, .img-crio2 {
-    width: 100%; }
+    width: 100%;
+  }
+
   .fondo-text, .img-inicio {
     width: 120px;
-    height: 120px; }
+    height: 120px;
+  }
+
   .text-bannerFinal {
-    font-size: 15px; }
+    font-size: 15px;
+  }
+
   .bannerFinal {
-    height: 380px; }
+    height: 380px;
+  }
+
   .align-bannerfinal {
-    margin: 15px auto; }
+    margin: 15px auto;
+  }
+
   .logofinal {
-    width: 40%; }
+    width: 40%;
+  }
+
   .font-final {
-    font-size: 10px; }
+    font-size: 10px;
+  }
+
   .img-depilacion2 {
-    display: none; }
+    display: none;
+  }
+
   .text-preguntasFrecuentes {
-    font-size: 20px; }
+    font-size: 20px;
+  }
+
   .line-neon-banner-small {
     width: 150px;
-    height: 4px; }
+    height: 4px;
+  }
+
   .line-neon-banner {
-    height: 5px; }
+    height: 5px;
+  }
+
   .image-nosotras {
     margin: auto 80px;
     width: 200px;
-    height: 200px; }
+    height: 200px;
+  }
+
   .image-nosotras2 {
     margin: auto 80px;
     height: 200px;
-    width: 200px; } }
-
+    width: 200px;
+  }
+}
 /*Fin tablet*/
+@media only screen and (min-width: 960px) and (max-width: 1100px) {
+  .titulo-continuacion {
+    position: absolute;
+    top: 190px;
+    left: 700px;
+    font-size: 60px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
