@@ -60,6 +60,13 @@
   height: 300px;
 }
 
+.audio {
+  width: 100px;
+  height: 20px;
+  margin-top: 40px;
+  margin-left: 16px;
+}
+
 .wp-follow {
   width: 55px;
   height: 55px;
@@ -72,7 +79,7 @@
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  margin-top: 50px;
+  margin-top: 1px;
 }
 
 .text-first,
@@ -343,6 +350,11 @@
     left: 200px;
     font-size: 25px !important;
   }
+
+  .audio {
+    margin-top: 10px;
+    margin-left: 0px !important;
+  }
 }
 /*Mobile*/
 @media only screen and (max-width: 400px) {
@@ -375,8 +387,15 @@
     display: none;
   }
 
+  .audio {
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+
   .logoInicio {
-    display: none;
+     display: none; 
+    /* width: 60px;
+    height: 60px; */
   }
 
   .text-first, .text-end, .text-style-tratamientos {
@@ -480,6 +499,10 @@
 
   .segundo-titulo-page {
     font-size: 35px;
+  }
+  .audio {
+    margin-top: 10px;
+    margin-left: -10px;
   }
 
   .logoInicio {

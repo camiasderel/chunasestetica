@@ -55,6 +55,14 @@
     height:300px;
 }
 
+
+.audio{   
+    width: 100px;
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 16px;      
+}
+
 .wp-follow{
     width: 55px;
     height: 55px;
@@ -67,7 +75,7 @@
     border-radius: $Radius-circulo;
     width:  150px;    
     height:  150px;
-    margin-top: 50px;
+    margin-top: 1px;
  }
  
  .text-first, 
@@ -356,6 +364,11 @@
         left: 200px;
         font-size: 25px !important;
     }
+
+    .audio{        
+        margin-top: 10px;
+        margin-left: 0px;      
+    }
 }
 
 
@@ -390,6 +403,11 @@
 
     .wp-follow{
         display:none;
+    }
+
+    .audio{        
+        margin-top: 10px;
+        margin-left: 0px;      
     }
 
     .logoInicio{
