@@ -71,15 +71,16 @@
   width: 55px;
   height: 55px;
   position: fixed;
-  left: 1310px;
-  top: 600px;
+  right: 10px;
+  bottom: 10px;
 }
 
 .logoInicio {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  margin-top: 1px;
+  margin-top: 38px;
+  overflow: visible;
 }
 
 .text-first,
@@ -104,6 +105,12 @@
 .fondo-text {
   width: 400px;
   height: 400px;
+}
+
+.align-img-wsp {
+  width: 55px;
+  height: 55px;
+  margin-left: -60px;
 }
 
 .Imagen-redsocial {
@@ -178,6 +185,10 @@
   text-align: center;
 }
 
+.margin-textarea {
+  margin-left: 1px;
+}
+
 .formEstilo {
   font-family: "Poiret One", cursive;
   font-weight: bold;
@@ -190,6 +201,26 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.contenedor-pedido {
+  width: 100px;
+  height: 400px;
+  margin: 10px auto;
+  border: 3px solid white;
+  box-shadow: 0 0 5px #FF00FF, 0 0 10px #FF00FF, 0 0 20px #FF00FF;
+  border-radius: 10%;
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.rectangulo {
+  width: 250px;
+  height: 400px;
+  border: 3px solid white;
+  box-shadow: 0 0 5px #00FFF3, 0 0 10px #00FFF3, 0 0 20px #00FFF3;
+  border-radius: 10%;
+  padding: 10px;
 }
 
 /*Fin pedidos*/
@@ -235,6 +266,10 @@
   margin: 10px auto;
 }
 
+.margin-tt-section-capilares {
+  margin-top: -60px;
+}
+
 .align-text-alisados, .img-alisado3, .img-alisado2 {
   margin: 50px auto;
 }
@@ -248,13 +283,33 @@
   justify-content: space-evenly;
 }
 
+.contenedor-turno1 {
+  width: 300px;
+  height: 300px;
+  border: 3px solid white;
+  box-shadow: 0 0 5px #00FFF3, 0 0 10px #00FFF3, 0 0 20px #00FFF3;
+  border-radius: 10%;
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.contenedor-turno2 {
+  width: 300px;
+  height: 330px;
+  border: 3px solid white;
+  box-shadow: 0 0 5px #FF00FF, 0 0 10px #FF00FF, 0 0 20px #FF00FF;
+  border-radius: 10%;
+  padding: 20px;
+  padding-left: 40px;
+}
+
 .btn-Formato-special {
   background-color: #00FFF3;
-  margin: 30px auto;
   text-align: center;
   color: black;
   font-weight: bold;
   transition: 0.2s;
+  margin-top: 5px;
 }
 
 .btn-Formato-special:hover {
@@ -316,6 +371,26 @@
   margin: 50px auto;
 }
 
+.contenedor-contacto1 {
+  width: 300px;
+  height: 500px;
+  border: 3px solid white;
+  box-shadow: 0 0 5px #00FFF3, 0 0 10px #00FFF3, 0 0 20px #00FFF3;
+  border-radius: 10%;
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.contenedor-contacto2 {
+  width: 300px;
+  height: 500px;
+  border: 3px solid white;
+  box-shadow: 0 0 5px #FF00FF, 0 0 10px #FF00FF, 0 0 20px #FF00FF;
+  border-radius: 10%;
+  padding: 20px;
+  padding-left: 40px;
+}
+
 .btn-margin {
   margin: 5px auto;
 }
@@ -350,14 +425,14 @@
     left: 200px;
     font-size: 25px !important;
   }
-
-  .audio {
-    margin-top: 10px;
-    margin-left: 0px !important;
-  }
 }
 /*Mobile*/
 @media only screen and (max-width: 400px) {
+  .fondo-titulo {
+    width: 100%;
+    height: 200px;
+  }
+
   .titulo-neon {
     text-align: center;
     align-items: center;
@@ -389,13 +464,12 @@
 
   .audio {
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 0px;
   }
 
   .logoInicio {
-     display: none; 
-    /* width: 60px;
-    height: 60px; */
+    display: none;
+    overflow: hidden;
   }
 
   .text-first, .text-end, .text-style-tratamientos {
@@ -413,8 +487,8 @@
   }
 
   .fondo-text, .img-inicio {
-    width: 120px;
-    height: 120px;
+    width: 350px;
+    height: 350px;
   }
 
   .text-bannerFinal {
@@ -435,11 +509,18 @@
   }
 
   .logofinal {
-    width: 40%;
+    width: 119px;
+    height: 113px;
   }
 
   .bannerFinal {
     height: 457px;
+  }
+
+  .contenedor-pedido {
+    width: 80%;
+    padding: 10px;
+    padding-left: 5px;
   }
 
   .font-final {
@@ -447,7 +528,7 @@
   }
 
   .img-depilacion2 {
-    display: none;
+    display: none !important;
   }
 
   .align-text-alisados {
@@ -476,6 +557,11 @@
 }
 /*tablet*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+  .fondo-titulo {
+    width: 100%;
+    height: 200px;
+  }
+
   .titulo-neon {
     text-align: center;
     position: none;
@@ -500,13 +586,10 @@
   .segundo-titulo-page {
     font-size: 35px;
   }
-  .audio {
-    margin-top: 10px;
-    margin-left: -10px;
-  }
 
   .logoInicio {
     display: none !important;
+    overflow: hidden;
   }
 
   .wp-follow {
@@ -523,9 +606,15 @@
     width: 100%;
   }
 
+  .contenedor-pedido {
+    width: 80%;
+    padding: 15px;
+    padding-left: 20px;
+  }
+
   .fondo-text, .img-inicio {
-    width: 120px;
-    height: 120px;
+    width: 350px;
+    height: 350px;
   }
 
   .text-bannerFinal {
@@ -541,7 +630,8 @@
   }
 
   .logofinal {
-    width: 40%;
+    width: 119px;
+    height: 113px;
   }
 
   .font-final {
