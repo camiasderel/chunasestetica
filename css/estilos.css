@@ -16,6 +16,21 @@
   box-sizing: border-box;
 }
 
+.animation-complete {
+  animation-duration: 3s;
+  animation-name: inicio;
+}
+
+@keyframes inicio {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 .color-navbar {
   background-color: #EDD7E7;
   width: 100%;
@@ -174,6 +189,17 @@
   background-color: #EDD7E7;
 }
 
+.align-elaboracion {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+}
+
+.img-producto {
+  width: 100px;
+  height: 100px;
+}
+
 /*Fin productos*/
 /*Realiza tu pedido*/
 .segundo-titulo-page {
@@ -224,6 +250,105 @@
 }
 
 /*Fin pedidos*/
+/*Nueva seccion compras*/
+.tittle-compras {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.navigation {
+  width: 250px;
+}
+
+.mainmenu, .submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mainmenu a {
+  display: block;
+  background-color: #EDD7E7;
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+}
+
+.mainmenu a:hover {
+  background-color: #FF00FF;
+}
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 350px;
+}
+
+.submenu a {
+  background-color: #f078c8;
+}
+
+.submenu a:hover {
+  background-color: #FF00FF;
+}
+
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
+
+.align-menucompras {
+  position: absolute;
+}
+
+.contenedor-compras {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.contenedor-interior-compras {
+  background-color: #EDD7E7;
+  width: 200px;
+  height: 400px;
+  margin: 10px auto;
+  padding: 25px;
+}
+
+.compras-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5%;
+}
+
+.text-final-compras1 {
+  font-family: "Poiret One", cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+.alignbtn-compras {
+  margin-left: 10px;
+}
+
+.compra-producto {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+}
+
+.descripcion-producto {
+  font-family: "Poiret One", cursive;
+}
+
+.nutricion-tt {
+  margin: 5% auto;
+}
+
+/*Fin compras*/
 /*Inicio tratamientos*/
 .text-style-tratamientos {
   font-family: "Poiret One", cursive;

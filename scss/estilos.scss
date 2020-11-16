@@ -9,6 +9,21 @@
    padding: $reset-padding;  
    box-sizing: border-box;  
  }
+.animation-complete{
+ animation-duration: 3s;
+ animation-name: inicio;
+}
+
+@keyframes inicio {
+ from {
+   margin-left: 100%;
+   width: 300%
+ }
+ to {
+   margin-left: 0%;
+   width: 100%;
+ }
+}
 
 .color-navbar{
     background-color: $color-secundary;
@@ -190,6 +205,17 @@
     background-color: $color-secundary;
 }
 
+.align-elaboracion{
+    text-align: center;
+    font-family: $font-secundary;
+    font-size: 35px;
+}
+
+.img-producto{
+    width: 100px;
+    height: 100px;
+}
+
 /*Fin productos*/
 /*Realiza tu pedido*/
 
@@ -238,7 +264,106 @@
     padding:10px;
 }
 /*Fin pedidos*/
+/*Nueva seccion compras*/
+.tittle-compras{
+    font-family: $font-final;
+    text-align: center;
+    color: $btn-Color;
+    font-weight: bold;
+}
 
+.navigation {
+    width: 250px;
+  }
+  
+  .mainmenu, .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .mainmenu a {
+    display: block;
+    background-color: $color-secundary;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+  }
+  
+  .mainmenu a:hover {
+      background-color: $colormenu-hover;
+  }
+  
+  .mainmenu li:hover .submenu {
+    display: block;
+    max-height: 350px;
+  }
+  
+  .submenu a {
+    background-color: $colormenu-compras;
+  }
+  
+  
+  .submenu a:hover {
+    background-color:$colormenu-hover;
+  }
+  
+  .submenu {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: all 0.5s ease-out;
+  }
+   .align-menucompras{
+       position: absolute;
+ }
+
+ .contenedor-compras{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     margin-left:250px;
+     margin-right: 250px;
+ }
+ .contenedor-interior-compras{
+     background-color: $color-secundary;
+     width: 200px;
+     height: 400px;
+     margin: 10px auto;     
+     padding: 25px;
+ }
+
+ .compras-img{
+     width: 150px;
+     height: 150px;
+     border-radius: 5%;
+ }
+
+ .text-final-compras1{
+    font-family: $font-text;
+    font-size: 30px;
+    text-align: center;
+ }
+
+ .alignbtn-compras{
+     margin-left: 10px;
+ }
+
+ .compra-producto{
+    font-family: $font-text;
+    font-weight: bold;
+
+ }
+
+ .descripcion-producto{
+    font-family: $font-text;
+ }
+
+ .nutricion-tt{
+     margin: 5% auto;
+ }
+
+ /*Fin compras*/
 /*Inicio tratamientos*/
 
 .text-style-tratamientos {
